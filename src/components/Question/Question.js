@@ -1,6 +1,6 @@
-import { Button } from "@material-ui/core";
+import { Button } from '@mui/material';
 import { useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import "./Question.css";
 const Question = ({
@@ -32,7 +32,7 @@ const Question = ({
         if (i === correct) setScore(score + 1);
         setError(false);
     }
-    const history = useHistory();
+    const history = useNavigate();
 
     const handleNext = () => {
         if (currQues >= 9) {

@@ -1,9 +1,9 @@
-import { Button, MenuItem, TextField } from "@material-ui/core";
+import { Button, MenuItem, TextField } from "@mui/material";
 import "./Home1.css";
 
 import Categories, { } from "../../Data/Categories";
 import { useState } from "react";
-import { useHistory } from "react-router";
+import { useNavigate } from "react-router";
 import ErrorMessage, { } from "../../components/ErrorMessage/ErrorMessage";
 const Home = ({ name, setName, fetchQuestions }) => {
 
@@ -11,7 +11,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
     const [difficulty, setDifficulty] = useState("");
     const [error, setError] = useState(false);
 
-    const history = useHistory();
+    const history = useNavigate();
 
     const handleSubmit = () => {
         if (!category || !difficulty || !name) {

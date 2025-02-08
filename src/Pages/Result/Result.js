@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import { useHistory } from "react-router";
-import { Button } from "@material-ui/core";
+import { useNavigate } from "react-router";
+import { Button } from "@mui/material";
 import "./Result.css";
 const Result = ({ name, score }) => {
-    const history = useHistory();
+    const history = useNavigate();
 
     useEffect(() => {
         if (!name) {
