@@ -7,7 +7,7 @@ const Result = ({ name, score }) => {
 
     useEffect(() => {
         if (!name) {
-            history.push("/");
+            history("/");
         }
     }, [name, history]);
 
