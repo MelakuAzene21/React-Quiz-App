@@ -3,6 +3,10 @@
     text-transform: uppercase;
     font-size: 8vw;
     font-family: "Montserrat",sans-serif;
+<<<<<<< HEAD
+=======
+    cursor: pointer;
+>>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
 }
 .header
 {

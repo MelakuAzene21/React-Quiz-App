@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'; // Import icons from react-icons
 
@@ -62,4 +63,13 @@ const styles = {
     },
 };
 
+=======
+const Footer = () => {
+    return (
+        <div style={{ textAlign: "center", marginBottom: 10 }}>
+            <h1>Made by PAVAN KUMAR YALAMARTHY</h1>
+        </div>
+    );
+};
+>>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
 export default Footer;
