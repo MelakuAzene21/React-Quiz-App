@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .question
 {
     width:100%;
@@ -8,16 +7,6 @@
 }
 .singleQuestion
 {
-=======
-.question {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.singleQuestion {
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
     width: 95%;
     min-height: 350px;
     display: flex;
@@ -29,19 +18,14 @@
     margin-top: 10px;
 }
 
-<<<<<<< HEAD
 .options
 {
-=======
-.options {
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex: 1;
     align-items: center;
     justify-content: space-around;
-<<<<<<< HEAD
     margin:10px;
 }
 
@@ -58,38 +42,17 @@
 {
     .singleOption
     {
-=======
-    margin: 10px;
-}
-
-.singleOption {
-    width: 46%;
-    height: 50px;
-    padding: 15px 20px;
-    margin: 10px;
-    box-shadow: 0 0 2px black;
-}
-
-@media (max-width:614px) {
-    .singleOption {
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
         width: 100%;
     }
 }
 
-<<<<<<< HEAD
 .select
 {
     background-color: rgb(7,207,0);
-=======
-.select {
-    background-color: rgb(7, 207, 0);
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
     color: white;
     box-shadow: 0 0 1px black;
 }
 
-<<<<<<< HEAD
 .wrong
 {
     background-color: rgb(233,0,0);
@@ -98,15 +61,6 @@
 }
 .control
 {
-=======
-.wrong {
-    background-color: rgb(233, 0, 0);
-    color: white;
-    box-shadow: 0 0 1px black;
-}
-
-.control {
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
     display: flex;
     justify-content: space-around;
     width: 100%;

@@ -1,24 +1,14 @@
-<<<<<<< HEAD
 .result
 {
-=======
-.result {
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 60vh;
     text-align: center;
 }
-<<<<<<< HEAD
 .nam
 {
     
-=======
-
-.nam {
-
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
     display: flex;
     flex-direction: column;
     justify-content: center;

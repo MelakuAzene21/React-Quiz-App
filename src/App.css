@@ -1,41 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200;300&display=swap');
-<<<<<<< HEAD
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
-  scrollbar-width: thin;
 }
 
 a{
-=======
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scrollbar-width: thin;
-}
-
-a {
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
   text-decoration: inherit;
   color: inherit;
 }
 
-<<<<<<< HEAD
 .app
 {
    min-height: 98.5vh;
    border: 8px solid #39445a93;
    margin: 5px;
    padding: 5px;
-=======
-.app {
-  min-height: 98.5vh;
-  border: 8px solid #39445a93;
-  margin: 5px;
-  padding: 5px;
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
 }

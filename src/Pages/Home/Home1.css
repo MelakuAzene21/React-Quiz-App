@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .content
 {
     display: flex;
@@ -7,39 +6,21 @@
 .settings
 {
     width:45%;
-=======
-.content {
-    display: flex;
-    justify-content: space-around;
-}
-
-.settings {
-    width: 45%;
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
     font-family: "Poppins",sans-serif;
     font-weight: 300;
 }
 
 .banner
 {
-=======
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-}
-
-.banner {
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
     width: 55%;
     align-self: center;
     padding: 8px;
 }
 
-<<<<<<< HEAD
 @media(max-width:800px)
 {
     .content
@@ -62,26 +43,6 @@
 
 .settings_select
 {
-=======
-@media(max-width:800px) {
-    .content {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .settings {
-        width: 100%;
-    }
-
-    .banner {
-        width: 85%;
-        padding-top: 20px;
-        padding: 0;
-    }
-}
-
-.settings_select {
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
     display: flex;
     flex-direction: column;
     padding: 20px;

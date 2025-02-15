@@ -1,12 +1,7 @@
 const Categories = [
     {
-<<<<<<< HEAD
       category: "General Knowledge",
       value: 9,
-=======
-        category: "General Knowledge",
-        value: 9,
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
     },
     { category: "Books", value: 10 },
     { category: "Films", value: 11 },
@@ -31,12 +26,6 @@ const Categories = [
     { category: "Gadgets", value: 30 },
     { category: "Japanese Anime", value: 31 },
     { category: "Cartoon and Animations", value: 32 },
-<<<<<<< HEAD
   ];
   
   export default Categories; 
-=======
-];
-
-export default Categories; 
->>>>>>> fbb9a19555c0bbec51ed6ad2128705d60bde9a3f
